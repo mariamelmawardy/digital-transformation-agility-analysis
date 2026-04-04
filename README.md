@@ -1,9 +1,11 @@
 # Digital Transformation & Business Agility Analysis
 
 Overview
+
 This project analyzes the relationship between digital transformation and business agility using survey data. The goal is to understand how digital tools, systems, and practices impact an organization’s ability to respond quickly to changes.
 
 🔹 Dataset
+
 The dataset is based on a structured survey with 100 responses.
 It includes two main sections:
 
@@ -13,6 +15,7 @@ Business Agility (9 questions)
 All responses are measured using a 5-point Likert scale (1–5).
 
 🔹 Methodology
+
 The analysis was conducted using Python in a Jupyter Notebook and includes the following steps:
 
 Data cleaning and preprocessing
@@ -28,6 +31,7 @@ Feature importance analysis
 Data visualization (scatter plot and bar chart)
 
 🔹 Key Findings
+
 There is a positive relationship between digital transformation and business agility.
 Digital transformation explains approximately 60% of business agility (R² ≈ 0.60).
 The most impactful factors include:
@@ -37,6 +41,7 @@ Use of digital systems
 Some factors showed weaker or negative impact, indicating differences in implementation across organizations.
 
 🔹 Tools Used
+
 Python
 Jupyter Notebook
 Pandas
@@ -46,6 +51,7 @@ Seaborn
 Scikit-learn
 
 🔹 Project Structure
+
 dataaa.ipynb → Main analysis notebook
 Dataset → Survey data used for analysis
 
