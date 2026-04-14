@@ -2,7 +2,7 @@
 
 Overview
 
-This project analyzes the relationship between digital transformation and business agility using real survey data. The goal is to understand how digital tools, systems, and practices affect an organization’s ability to respond quickly to changes.
+This project analyzes the relationship between digital transformation and business agility using real survey data. The goal is to understand how digital tools, systems, and practices affect an organization’s ability to respond quickly and effectively to changes.
 
 🔹 Dataset
 
@@ -16,7 +16,7 @@ All responses are measured using a 5-point Likert scale (1–5).
 
 🔹 Methodology
 
-The analysis was conducted using Python in a Jupyter Notebook and includes:
+The analysis was conducted using Python in Google Colab and includes:
 
 Data cleaning and preprocessing
 Conversion of responses into numerical values
@@ -28,28 +28,25 @@ Correlation analysis
 Simple linear regression
 Multiple regression analysis
 Feature importance analysis
-Clustering (K-Means)
 Simulation (prediction of agility based on digital levels)
 Data visualization (scatter plot and bar chart)
 
 🔹 Key Findings
 
-There is a positive relationship between digital transformation and business agility.
-Digital transformation explains approximately 60–64% of business agility (R² ≈ 0.60–0.64).
+There is a clear positive relationship between digital transformation and business agility.
+Simple regression shows that digital transformation explains about 64% of business agility (R² ≈ 0.64).
+Multiple regression improves the model, explaining about 70% of business agility (R² ≈ 0.70).
 The most impactful factors include:
-Information sharing
-Access to updated information
-Use of digital systems
-Clustering shows different types of organizations:
-High digital – high agility
-High digital – low agility (implementation gaps)
-Low digital – low agility
-Simulation results show that increasing digital transformation leads to a clear increase in predicted agility.
+Information sharing between departments
+Access to updated business information
+Use of digital systems in operations
+Some factors showed weaker or negative impact, such as management support, likely due to indirect influence or similar responses across participants.
+Simulation results confirm that increasing digital transformation leads to higher predicted business agility, making the results more practical and easier to interpret.
 
 🔹 Tools Used
 
 Python
-Jupyter Notebook
+Google Colab
 Pandas
 NumPy
 Matplotlib
@@ -58,10 +55,9 @@ Scikit-learn
 
 🔹 Project Structure
 
-datta.ipynb → Main analysis notebook
+data.ipynb → Main analysis notebook (run on Google Colab)
 Dataset → Survey data used for analysis
 
 🔹 Conclusion
 
-
-The results show that digital transformation has a strong positive impact on business agility. Organizations that effectively use digital tools, especially for communication and information access, are more likely to adapt quickly and improve performance. The project also demonstrates how data analysis and prediction models can support better decision-making.
+The results show that digital transformation has a strong positive impact on business agility. Organizations that effectively use digital tools, especially for communication and access to information, are more likely to respond quickly to changes and improve performance. The project also demonstrates how data analysis and predictive models can support better and more informed business decision-making. 
